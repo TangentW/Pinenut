@@ -2,6 +2,10 @@
 name = "pinenut-derive"
 version = "0.0.1"
 edition = "2021"
+authors = ["Tangent <tangent_w@outlook.com>"]
+description = "The internal derive crate for `pinenut-log`, it implements some derive macros."
+repository = "https://github.com/TangentW/Pinenut"
+license = "MIT"
 
 [lib]
 proc-macro = true
