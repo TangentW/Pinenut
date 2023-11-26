@@ -1,0 +1,6 @@
+framework module PinenutFFI {
+    umbrella header "PinenutFFI.h"
+    
+    export *
+    module * { export * }
+}

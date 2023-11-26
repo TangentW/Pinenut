@@ -1,0 +1,12 @@
+[package]
+name = "pinenut-derive"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0.31"
+quote = "1.0.33"
+proc-macro2 = "1.0.66"

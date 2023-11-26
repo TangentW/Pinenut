@@ -1,0 +1,9 @@
+[package]
+name = "pinenut-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pinenut-log = { version = "*", path = "../pinenut" }
+clap = { version = "4.4.2", features = ["derive"] }
+base64 = { version = "0.21.3", features = ["alloc"], default-features = false }

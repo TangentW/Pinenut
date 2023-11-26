@@ -1,0 +1,26 @@
+<svg width="1268" height="561" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1268 561">
+<rect width="1268" height="561" x="0" y="0" id="0" fill="none"></rect>
+<path d="M112.5 60L112.5 471.68" fill="none" stroke="#E0E6F1"></path>
+<path d="M333.5 60L333.5 471.68" fill="none" stroke="#E0E6F1"></path>
+<path d="M554.5 60L554.5 471.68" fill="none" stroke="#E0E6F1"></path>
+<path d="M775.5 60L775.5 471.68" fill="none" stroke="#E0E6F1"></path>
+<path d="M996.5 60L996.5 471.68" fill="none" stroke="#E0E6F1"></path>
+<path d="M1217.5 60L1217.5 471.68" fill="none" stroke="#E0E6F1"></path>
+<path d="M112.5 471.68L112.5 60" fill="none" stroke="#6E7079" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:18px;font-family:sans-serif;font-weight:bold;" xml:space="preserve" y="9" transform="translate(664.6683 514.68)" fill="#6E7079">Processed Log Records per Second</text>
+<path d="M112.0567 471.5L107.0567 471.5" fill="none" stroke="#6E7079"></path>
+<path d="M112.0567 266.5L107.0567 266.5" fill="none" stroke="#6E7079"></path>
+<path d="M112.0567 60.5L107.0567 60.5" fill="none" stroke="#6E7079"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:18px;font-family:sans-serif;font-weight:bolder;" transform="translate(104.0567 368.76)" fill="#6E7079">Xlog</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:18px;font-family:sans-serif;font-weight:bolder;" transform="translate(104.0567 162.92)" fill="#6E7079">Pinenut</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="7" transform="translate(112.0567 479.68)" fill="#6E7079">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="7" transform="translate(333.1013 479.68)" fill="#6E7079">100,000</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="7" transform="translate(554.146 479.68)" fill="#6E7079">200,000</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="7" transform="translate(775.1907 479.68)" fill="#6E7079">300,000</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="7" transform="translate(996.2353 479.68)" fill="#6E7079">400,000</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="7" transform="translate(1217.28 479.68)" fill="#6E7079">500,000</text>
+<path d="M112.0567 312.154l701.7571 0l0 113.212l-701.7571 0Z" fill="#6d8ae4"></path>
+<path d="M112.0567 106.314l989.0865 0l0 113.212l-989.0865 0Z" fill="rgb(113,201,120)"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:18px;font-family:sans-serif;font-weight:bold;" xml:space="preserve" transform="translate(462.9352 368.76)" fill="white">317473 Records/s</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:18px;font-family:sans-serif;font-weight:bold;" xml:space="preserve" transform="translate(606.5999 162.92)" fill="white">447460 Records/s</text>
+</svg>
