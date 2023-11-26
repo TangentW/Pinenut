@@ -1,0 +1,5 @@
+output-type: lcov
+output-file: ./lcov.info
+ignore:
+  - "pinenut-ffi/*"
+  - "pinenut/derive/*"
