@@ -70,7 +70,6 @@ pub enum DecodingError {
     DateTime,
 }
 
-/// Any data type that can be decoded.
 /// Represents a provider for encoded data.
 pub(crate) trait Source<'de> {
     type Error: From<DecodingError>;
@@ -79,6 +78,7 @@ pub(crate) trait Source<'de> {
     fn read_bytes(&mut self, len: usize) -> Result<&'de [u8], Self::Error>;
 }
 
+/// Any data type that can be decoded.
 ///
 /// `Pinenut` decodes the data by continuously reading a stream of compact binary
 /// bytes from the `Source`.
@@ -118,7 +118,6 @@ impl AccumulationEncoder {
         T: Encode,
         S: Sink,
     {
-        // type FnSink<F> = common::FnSink<F, S::Error>;
         value.encode(&mut FnSink::new(|mut bytes: &[u8]| {
             loop {
                 let buffered = self.buffer.buffer(bytes);
