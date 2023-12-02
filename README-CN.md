@@ -244,6 +244,11 @@ Pinenut 的部分设计灵感来源于 Xlog，这里也对其两者进行性能�
 | Pinenut |            447460             |
 |  Xlog   |            317473             |
 
+## 待办项
+
+- [ ] 日志等级过滤
+- [ ] 提供 Kotlin API
+
 ## 开源许可
 
 Pinenut 基于 MIT 开源许可协议，更多详情请查看 LICENSE 文件。 

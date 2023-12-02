@@ -244,6 +244,11 @@ Both logging libraries support Zstd, so the benchmark will be run with both usin
 | Pinenut |                  447460                  |
 |  Xlog   |                  317473                  |
 
+## TODO
+
+- [ ] Level Filter
+- [ ] Kotlin APIs
+
 ## License
 
 Pinenut is released under the MIT license. See LICENSE for more details.
