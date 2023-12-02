@@ -38,8 +38,11 @@ struct Parse {
     /// Path to log File.
     path: String,
     /// Path to destnation File.
+    ///
+    /// If it is not specified, the default `.log` file is generated in the same
+    /// directory as `path`.
     #[arg(short, long)]
-    output: String,
+    output: Option<String>,
     /// The secret key.
     #[arg(short, long)]
     secret_key: Option<String>,
@@ -48,12 +51,12 @@ struct Parse {
 impl Parse {
     fn exec(self) {
         println!("Parsing ...");
+        let output = self.output.unwrap_or_else(|| self.path.clone() + ".log");
         let secret_key = self
             .secret_key
             .and_then(|k| BASE64_STANDARD.decode(k).ok())
             .and_then(|k| k.try_into().ok());
-        let res =
-            pinenut_log::parse_to_file(&self.path, &self.output, secret_key, DefaultFormatter);
+        let res = pinenut_log::parse_to_file(&self.path, output, secret_key, DefaultFormatter);
         if let Err(err) = res {
             println!("Error: {err}");
         }
