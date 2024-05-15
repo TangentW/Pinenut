@@ -1,6 +1,6 @@
 [package]
 name = "pinenut-log"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["Tangent <tangent_w@outlook.com>"]
 description = "An extremely high performance logging system for clients (iOS, Android, Desktop), written in Rust."

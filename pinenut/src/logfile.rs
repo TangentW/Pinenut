@@ -109,7 +109,7 @@ impl Logfile {
         }
 
         let (identifier, timestamp) =
-            name.file_stem()?.to_str()?.split_once(Self::NAME_SEPARATOR)?;
+            name.file_stem()?.to_str()?.rsplit_once(Self::NAME_SEPARATOR)?;
 
         if identifier != domain.identifier {
             return None;

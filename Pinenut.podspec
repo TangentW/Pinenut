@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Pinenut"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "An extremely high-performance logging system for clients (iOS, Android, Desktop), written in Rust."
 
   spec.homepage     = "https://github.com/TangentW/Pinenut"
