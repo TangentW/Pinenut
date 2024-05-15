@@ -145,7 +145,6 @@
 #![feature(trait_alias)]
 #![feature(let_chains)]
 #![feature(option_take_if)]
-#![feature(result_option_inspect)]
 
 use std::path::PathBuf;
 
