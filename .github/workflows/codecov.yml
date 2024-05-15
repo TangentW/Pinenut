@@ -39,7 +39,7 @@ jobs:
       - name: grcov
         uses: actions-rs/grcov@v0.1
       - name: Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_ORG_TOKEN }}
         with:
